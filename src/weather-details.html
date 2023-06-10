@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Details</title>
+</head>
+<body>
+  <h1>Weather Details</h1>
+  <p>City Name: <span id="cityName"></span></p>
+
+  <script>
+    // Retrieve the query parameter value
+    const urlParams = new URLSearchParams(window.location.search);
+    const cityName = urlParams.get('city');
+
+    // Display the city name
+    document.getElementById('cityName').textContent = cityName;
+  </script>
+</body>
+</html>
