@@ -91,7 +91,7 @@ const App = () => {
     <div className="App">
         <h1><img src="weathericon.png" alt="Weather Icon" width="30" height="30"></img> Weather App</h1>
         <div class="search-container">
-          <input type="text" class="search-input" placeholder="Enter a city"></input>
+          <input type="text" class="search-input" placeholder="Enter a city" style={{color:"white"}}></input>
           <button class="search-button">Add city</button>
         </div>
         {formattedWeatherData.map((city, index) => {
