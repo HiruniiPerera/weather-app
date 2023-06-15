@@ -120,7 +120,7 @@ const App = () => {
         return null; // Skip odd-indexed cards
       })}
       <div class="footer">
-        2023 Fidenz Technologies
+        2023 
       </div>
     </div>
   );
